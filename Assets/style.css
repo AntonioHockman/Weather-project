@@ -1,0 +1,47 @@
+#top {
+    color:white;
+    background-color: blueviolet;
+   /*text-align: center;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0px;
+    padding-top:0px;
+    
+}
+
+.container{
+    display:flex;
+    position: relative;
+}
+.sidebar{
+    border:10px solid black; 
+    width: 200px;
+    padding: 10px;
+    /*position: absolute;*/
+}
+/*@media screen and (max-width:800px) {
+    .sidebar,
+    .boxDiv {
+        flex-direction: column;
+    }*/
+
+    
+}
+.searchBox{
+    width:200px;
+}
+#results{
+
+    align-content: center;
+}
+.boxDiv{
+    display:flex;
+    justify-content: center;
+    height:100vh;
+}
+.box {
+    width: 60%; /* Set the width of the box */
+    height: 200px; /* Set the height of the box */
+    border: 2px solid black; /* Set the border style */
+}
