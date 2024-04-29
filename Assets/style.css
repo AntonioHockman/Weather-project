@@ -10,7 +10,7 @@
     
 }
 
-.container{
+/* .container{
     display:flex;
     position: relative;
 }
@@ -27,7 +27,7 @@
     }*/
 
     
-}
+/* }
 .searchBox{
     width:200px;
 }
@@ -41,7 +41,6 @@
     height:100vh;
 }
 .box {
-    width: 60%; /* Set the width of the box */
-    height: 200px; /* Set the height of the box */
-    border: 2px solid black; /* Set the border style */
-}
+    width: 60%;  Set the width of the box 
+    height: 200px;  Set the height of the box 
+    border: 2px solid black;  Set the border style */
