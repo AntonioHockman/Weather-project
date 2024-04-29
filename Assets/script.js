@@ -1,4 +1,33 @@
-const submitButton = document.querySelector(".submit");
+// console.log("tutor session"); test to verify linked properly before coding 
+
+
+// console.log(submitButton);
+
+// submitButton.addEventListener('click', getApi());
+
+//   {  console.log('click worked'); check to see if it worked
+//   };
+
+
+// function getApi() {
+    //     const apiiKey = 'bdb92833e9ffe0c191530c632b403a41';
+    //     const url = "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid=bdb92833e9ffe0c191530c632b403a41";
+    
+            
+    //     fetch(url)
+//     .then(function(response) {
+    //        return response.json();
+    //     })
+    //         .then(function(data){
+        //             console.log(data);
+        
+//         });
+
+// };
+
+
+
+    const submitButton = document.querySelector(".submit");
 
 function renderWeather (weather){
     console.log(weather);
@@ -46,3 +75,5 @@ submitButton.addEventListener('click', function(event){
         const query = searchBar.value;
         fetchWeather(query);
 });
+
+// fetchWeather('San diego')

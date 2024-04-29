@@ -1,14 +1,16 @@
-#top {
+/* body {background-color: blue;} this was a test to make sure css was linked properly */
+
+ #top {
     color:white;
     background-color: blueviolet;
-   /*text-align: center;*/
+   text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 0px;
-    padding-top:0px;
+    padding-top:0px; 
     
-}
+} 
 
 /* .container{
     display:flex;
@@ -18,17 +20,17 @@
     border:10px solid black; 
     width: 200px;
     padding: 10px;
-    /*position: absolute;*/
+    position: absolute;
 }
-/*@media screen and (max-width:800px) {
+@media screen and (max-width:800px) {
     .sidebar,
     .boxDiv {
         flex-direction: column;
-    }*/
+    }
 
     
-/* }
-.searchBox{
+ } 
+ .searchBox{
     width:200px;
 }
 #results{
@@ -43,4 +45,5 @@
 .box {
     width: 60%;  Set the width of the box 
     height: 200px;  Set the height of the box 
-    border: 2px solid black;  Set the border style */
+    border: 2px solid black;  Set the border style 
+}   */ 
