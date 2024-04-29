@@ -58,7 +58,7 @@ function renderWeather (weather){
 
     
 }
-
+//fetching the api for city name 
 function fetchWeather(query){
 
     const url ='https://api.openweathermap.org/data/2.5/weather?q='+query+'&units=imperial&appid=bdb92833e9ffe0c191530c632b403a41';
